@@ -1,0 +1,139 @@
+
+.navbar{
+    background-color: #001cbc;
+    z-index: 2;
+}
+.navbar-expand-lg{
+    background-color: #001cbc;
+}
+.m-4{
+    position: sticky;
+    overflow: hidden;
+    background-color: #001cbc;
+    z-index: 2;
+
+}
+.navbar--background{
+    background-color: #001cbc;
+}
+.nav--link{
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.nav--link:hover{
+    color: #80BC00;
+    padding: 10px;
+    text-decoration: none;
+}
+.container{
+    background-color: #80BC00;
+    padding:1rem;
+    text-align: center;
+    color: #fff;
+}
+.video{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.two{
+    background-color: #001cbc;
+    padding:1rem;
+    text-align: center;
+    color: #fff;
+
+}
+.p-4{
+    background-color: #001cbc;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.footerLinks{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.text-white{
+    text-decoration: none;
+}
+.list-unstyled a:hover{
+    text-decoration: underline;
+}
+.text-center{
+    background-color: #80BC00;
+}
+.text-white{
+    color: #fff;
+    text-align: center;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.list-unstyled text-white{
+    text-align: center;
+}
+.SocialLinks{
+    display: flex;
+    justify-content: center;
+}
+.card {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 1rem;
+    width: 300px;
+    height: 450px;
+    background: #80BC00;
+    margin:.35rem;
+    }
+    .list-unstyled li{
+        text-align: center;
+    }
+
+.card_container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr  1fr;
+    transition: 1s;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:1300px){
+    .card_container{
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        margin:1rem;
+    }
+}
+@media screen and (max-width:750px){
+    .card_container{
+        grid-template-columns:1fr;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+    .card{
+        justify-content: center;
+        align-items: center;
+        margin:1rem;
+    }
+}

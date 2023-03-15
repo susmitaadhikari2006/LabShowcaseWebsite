@@ -33,13 +33,7 @@
     text-align: center;
     color: #fff;
 }
-.video{
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
+
 .two{
     background-color: #001cbc;
     padding:1rem;
@@ -111,25 +105,16 @@
 }
 
 
-@media screen and (max-width:1300px){
+@media screen and (max-width:950px){
     .card_container{
-        grid-template-columns: 1fr;
-        margin: auto;
-        width: 50%;
-        padding: 10px;
-    }
-    .card{
         justify-content: center;
         align-items: center;
-        margin:1rem;
-    }
-}
-@media screen and (max-width:750px){
-    .card_container{
         grid-template-columns:1fr;
         margin: auto;
         width: 50%;
-        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
     .card{
         justify-content: center;
